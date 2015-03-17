@@ -5,6 +5,6 @@ module.exports = {
        var coorType = options.CoorType ? options.CoorType : 'bd09ll';
        var isNeedAddress = options.IsNeedAddress ? options.IsNeedAddress : false;
        var args = [coorType, isNeedAddress];
-       exec(success, error, "BaiduLocation4Cordova", "startLocation", args);
+       exec(success, error, "BaiduLocation", "startLocation", args);
    }
 };
